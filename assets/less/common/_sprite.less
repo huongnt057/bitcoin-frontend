@@ -1,0 +1,242 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@firefly-color-name: 'firefly-color';
+@firefly-color-x: 0px;
+@firefly-color-y: 104px;
+@firefly-color-offset-x: 0px;
+@firefly-color-offset-y: -104px;
+@firefly-color-width: 248px;
+@firefly-color-height: 102px;
+@firefly-color-total-width: 748px;
+@firefly-color-total-height: 518px;
+@firefly-color-image: '../images/sprite.png';
+@firefly-color: 0px 104px 0px -104px 248px 102px 748px 518px '../images/sprite.png' 'firefly-color';
+@firefly-name: 'firefly';
+@firefly-x: 250px;
+@firefly-y: 312px;
+@firefly-offset-x: -250px;
+@firefly-offset-y: -312px;
+@firefly-width: 248px;
+@firefly-height: 102px;
+@firefly-total-width: 748px;
+@firefly-total-height: 518px;
+@firefly-image: '../images/sprite.png';
+@firefly: 250px 312px -250px -312px 248px 102px 748px 518px '../images/sprite.png' 'firefly';
+@golden-holidays-color-name: 'golden-holidays-color';
+@golden-holidays-color-x: 250px;
+@golden-holidays-color-y: 0px;
+@golden-holidays-color-offset-x: -250px;
+@golden-holidays-color-offset-y: 0px;
+@golden-holidays-color-width: 248px;
+@golden-holidays-color-height: 102px;
+@golden-holidays-color-total-width: 748px;
+@golden-holidays-color-total-height: 518px;
+@golden-holidays-color-image: '../images/sprite.png';
+@golden-holidays-color: 250px 0px -250px 0px 248px 102px 748px 518px '../images/sprite.png' 'golden-holidays-color';
+@golden-holidays-name: 'golden-holidays';
+@golden-holidays-x: 250px;
+@golden-holidays-y: 104px;
+@golden-holidays-offset-x: -250px;
+@golden-holidays-offset-y: -104px;
+@golden-holidays-width: 248px;
+@golden-holidays-height: 102px;
+@golden-holidays-total-width: 748px;
+@golden-holidays-total-height: 518px;
+@golden-holidays-image: '../images/sprite.png';
+@golden-holidays: 250px 104px -250px -104px 248px 102px 748px 518px '../images/sprite.png' 'golden-holidays';
+@lionair-color-name: 'lionair-color';
+@lionair-color-x: 0px;
+@lionair-color-y: 208px;
+@lionair-color-offset-x: 0px;
+@lionair-color-offset-y: -208px;
+@lionair-color-width: 248px;
+@lionair-color-height: 102px;
+@lionair-color-total-width: 748px;
+@lionair-color-total-height: 518px;
+@lionair-color-image: '../images/sprite.png';
+@lionair-color: 0px 208px 0px -208px 248px 102px 748px 518px '../images/sprite.png' 'lionair-color';
+@lionair-name: 'lionair';
+@lionair-x: 250px;
+@lionair-y: 208px;
+@lionair-offset-x: -250px;
+@lionair-offset-y: -208px;
+@lionair-width: 248px;
+@lionair-height: 102px;
+@lionair-total-width: 748px;
+@lionair-total-height: 518px;
+@lionair-image: '../images/sprite.png';
+@lionair: 250px 208px -250px -208px 248px 102px 748px 518px '../images/sprite.png' 'lionair';
+@malaysia-airline-color-name: 'malaysia-airline-color';
+@malaysia-airline-color-x: 0px;
+@malaysia-airline-color-y: 312px;
+@malaysia-airline-color-offset-x: 0px;
+@malaysia-airline-color-offset-y: -312px;
+@malaysia-airline-color-width: 248px;
+@malaysia-airline-color-height: 102px;
+@malaysia-airline-color-total-width: 748px;
+@malaysia-airline-color-total-height: 518px;
+@malaysia-airline-color-image: '../images/sprite.png';
+@malaysia-airline-color: 0px 312px 0px -312px 248px 102px 748px 518px '../images/sprite.png' 'malaysia-airline-color';
+@malaysia-airline-name: 'malaysia-airline';
+@malaysia-airline-x: 0px;
+@malaysia-airline-y: 0px;
+@malaysia-airline-offset-x: 0px;
+@malaysia-airline-offset-y: 0px;
+@malaysia-airline-width: 248px;
+@malaysia-airline-height: 102px;
+@malaysia-airline-total-width: 748px;
+@malaysia-airline-total-height: 518px;
+@malaysia-airline-image: '../images/sprite.png';
+@malaysia-airline: 0px 0px 0px 0px 248px 102px 748px 518px '../images/sprite.png' 'malaysia-airline';
+@malindoair-color-name: 'malindoair-color';
+@malindoair-color-x: 500px;
+@malindoair-color-y: 0px;
+@malindoair-color-offset-x: -500px;
+@malindoair-color-offset-y: 0px;
+@malindoair-color-width: 248px;
+@malindoair-color-height: 102px;
+@malindoair-color-total-width: 748px;
+@malindoair-color-total-height: 518px;
+@malindoair-color-image: '../images/sprite.png';
+@malindoair-color: 500px 0px -500px 0px 248px 102px 748px 518px '../images/sprite.png' 'malindoair-color';
+@malindoair-name: 'malindoair';
+@malindoair-x: 500px;
+@malindoair-y: 104px;
+@malindoair-offset-x: -500px;
+@malindoair-offset-y: -104px;
+@malindoair-width: 248px;
+@malindoair-height: 102px;
+@malindoair-total-width: 748px;
+@malindoair-total-height: 518px;
+@malindoair-image: '../images/sprite.png';
+@malindoair: 500px 104px -500px -104px 248px 102px 748px 518px '../images/sprite.png' 'malindoair';
+@tiger-color-name: 'tiger-color';
+@tiger-color-x: 500px;
+@tiger-color-y: 208px;
+@tiger-color-offset-x: -500px;
+@tiger-color-offset-y: -208px;
+@tiger-color-width: 248px;
+@tiger-color-height: 102px;
+@tiger-color-total-width: 748px;
+@tiger-color-total-height: 518px;
+@tiger-color-image: '../images/sprite.png';
+@tiger-color: 500px 208px -500px -208px 248px 102px 748px 518px '../images/sprite.png' 'tiger-color';
+@tiger-name: 'tiger';
+@tiger-x: 500px;
+@tiger-y: 312px;
+@tiger-offset-x: -500px;
+@tiger-offset-y: -312px;
+@tiger-width: 248px;
+@tiger-height: 102px;
+@tiger-total-width: 748px;
+@tiger-total-height: 518px;
+@tiger-image: '../images/sprite.png';
+@tiger: 500px 312px -500px -312px 248px 102px 748px 518px '../images/sprite.png' 'tiger';
+@vietnamair-color-name: 'vietnamair-color';
+@vietnamair-color-x: 0px;
+@vietnamair-color-y: 416px;
+@vietnamair-color-offset-x: 0px;
+@vietnamair-color-offset-y: -416px;
+@vietnamair-color-width: 248px;
+@vietnamair-color-height: 102px;
+@vietnamair-color-total-width: 748px;
+@vietnamair-color-total-height: 518px;
+@vietnamair-color-image: '../images/sprite.png';
+@vietnamair-color: 0px 416px 0px -416px 248px 102px 748px 518px '../images/sprite.png' 'vietnamair-color';
+@vietnamair-name: 'vietnamair';
+@vietnamair-x: 250px;
+@vietnamair-y: 416px;
+@vietnamair-offset-x: -250px;
+@vietnamair-offset-y: -416px;
+@vietnamair-width: 248px;
+@vietnamair-height: 102px;
+@vietnamair-total-width: 748px;
+@vietnamair-total-height: 518px;
+@vietnamair-image: '../images/sprite.png';
+@vietnamair: 250px 416px -250px -416px 248px 102px 748px 518px '../images/sprite.png' 'vietnamair';
+@spritesheet-width: 748px;
+@spritesheet-height: 518px;
+@spritesheet-image: '../images/sprite.png';
+@spritesheet-sprites: @firefly-color @firefly @golden-holidays-color @golden-holidays @lionair-color @lionair @malaysia-airline-color @malaysia-airline @malindoair-color @malindoair @tiger-color @tiger @vietnamair-color @vietnamair;
+@spritesheet: 748px 518px '../images/sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}
