@@ -6,719 +6,102 @@
 // -------------------------------------
 // Small devices (tablets, 768px and up)
 @media (min-width: @screen-sm-min) {
-	.section-box.our-client-section	{
-		.section-inner {
-			padding-top: 60px;
-			padding-bottom: 80px;
-		}
-	}
-
-
 	// Hook Mixin Render: Small devices (tablets, 768px and up)
 	.hook-screen-sm-min;
 }
 
 // Medium devices (desktops, 992px and up)
 @media (min-width: @screen-md-min) {
-	.banner-subpage {
-		&.has-canvas {
-			position: relative;
-			.desc-box {
-				padding: 0;
-				position: absolute;
-				left: 50%;
-				top:  50%;
-				.translate(-50%, -50%);
-			}
-		}
-	}
-
-
+	
 	// Hook Mixin Render: Medium devices (desktops, 992px and up)
 	.hook-screen-md-min;
 }
 
 // Large devices (large desktops, 1200px and up)
 @media (min-width: @screen-lg-min) {
-	.container.container-lg {
-		width: 85%;
-		max-width: 1600px;
+	.carousel-caption{
+		top:20%;
+		color:@primary-color;
+		h2{
+			font-size: 48px;
+			text-transform: uppercase;
+			letter-spacing:4px;
+		}
+		h4{
+			color:#fff;
+			font-size: 14px;
+			letter-spacing:2px;
+			margin-bottom: 35px;
+		}
+		
 	}
+	.btn-login{
+		display: inline-block;
+		width: 250px;
+		font-size: 25px;
+		padding: 10px !important;
 
-
+	}
+	iframe.embed-responsive-item {
+    width: 450px;
+    height: 300px;
+}
+	
 	// Hook Mixin Render: Medium devices (desktops, 992px and up)
 	.hook-screen-lg-min;
 }
 
 // Large devices (large desktops, 1400px and up)
-@media (min-width: 1400px) {
-	body {
-		font-size: 16px;
-	}
-	.page-description {
-		line-height: 1.8;
-		margin: 30px 0;
-	}
-	.main-content {
-		line-height: 1.5;
-		p {
-			margin-bottom: 20px;
-		}
-	}
-	.navbar-default {
-		font-size: 15px;
-	}
-	.banner-subpage.has-bg > .container {
-		min-height: 446px;
-		padding-top:160px;
-		padding-bottom: 200px;
-	}
-	.contact-detail .form-contact .mesage {
-	    min-height: 250px;
-	}
-	.banner-subpage h1.page-title {
-		font-size: 40px;
-	}
-	.banner-video .play-video {
-		margin: 30px 0 0;
-		font-size: 76px;
-	}
-	.btn-xlg {
-		height: 61px;
-		font-size: 30px;
-	}
-	.container {
-		width: 1280px;
-	}
-	.wrap-video .heading {
-		font-size: 35px;
-	}
-	.counter-number .count {
-		margin-bottom: 15px;
-	}
-	.counter-number .text {
-		padding-top: 16px;
-	}
-	.section-box {
-		> .section-inner {
-			padding: 100px 0;
-		}
-		.section-heading {
-			margin-bottom: 40px;
-		}
-		.section-footer {
-			margin-top: 40px;
-		}
-		.section-title {
-			font-size: 35px;
-		}
-	}
-	.swiper-client .swiper-pagination {margin-top: 45px;}
-	.swiper-projects {
-		.swiper-pagination {
-			margin-top: 30px;
-			.swiper-pagination-bullet {
-			}
-		}
-	}
-	.wrap-video > video {
-		height: auto;
-		width: 100%;
-	}
-	/*====================================
-	=            Platform Module            =
-	====================================*/
-	.plf-module {
-		.-title{
-			left: 36.5%;
-			top:56%;
-			font-size: 19px;
-			display:  inline!important;
-			width: auto
-		}
-		.plf-view{
-			left: 45%;
-	    	top: 62%;
-		}
-		img{
-		max-width: 600px;
-		}
-		.icon{
-			&.icon-tourist{
-				top:3.8%;
-				left: 46%;
-			}
-			&.icon-inter-departures{
-				top:14.8%;
-				left: 26%;
-			}
-			&.icon-soup{
-				top:22%;
-				right: 26%;
-			}
-			&.icon-smartphone{
-				top:39%;
-				left: 24%;
-			}
-			&.icon-planes-circling{
-				top:38%;
-				right: 23%;
-			}
-			&.icon-email-in-phone{
-				top:73%;
-				left:25%;
-			}
-			&.icon-booking{
-				top:65%;
-				right: 23.5%;
-			}
-			&.icon-technical-support{
-				top:88.7%;
-				left: 22%;
-			}
-			&.icon-api-page{
-				top:87%;
-				right: 21%;
-			}
-			&.icon-handshake{
-				top:100%;
-				right: 47%;
-			}
-		}
-		.module-name {
-			&.holiday-packaging{
-				top:-27px;
-				left: 510px;
-			}
-			&.booking-engine{
-				top:22%;
-				left: 22%;
-			}
-			&.ancillary-selling{
-				top:15%;
-				right: 26%;
-			}
-			&.booking-apps{
-				top:39%;
-				left: 7%;
-			}
-			&.flyer-redemption{
-				top:36%;
-				right: 3%;
-			}
-			&.booking-communications{
-				top:72%;
-				left: 4%;
-			}
-			&.travel-booking{
-				top:65%;
-				right: 7%;
-			}
-			&.api-booking{
-				top:92%;
-				left: 26%;
-			}
-			&.search-api{
-				top:92%;
-				right: 17%;
-			}
-			&.booking-packaging{
-				top:106%;
-				right: 38%;
-			}
-
-		 }
-	}
-	.section-box.our-project-section	{
-		.section-footer {
-			margin-top: 90px;
-		}
-	}
-}
-@media(min-width: 1600px) {
-	.wrap-video .heading {
-		font-size: 40px;
-	}
-	.banner-video .play-video {
-		font-size: 100px;
-	}
-	.counter-number > li:nth-child(2), .counter-number > li:nth-child(3) {
-	    margin-top: 70px;
-	}
-
-	.project-box{
-		height: 480px;
-	}
-}
 // In special cases
 // -------------------------------------
 // Only for Medium devices and lower (<1599px)
 @media (max-width: 1399px) {
-	.join-us-page .banner-subpage,
-	//.platform-page .banner-subpage,
-	//.services-page .banner-subpage,
-	.our-projects-page .banner-subpage {
-		background-size: contain;
-	}
+	
 }
 
 // Only for Medium devices and lower (<1599px)
 @media (max-width: @screen-md-max) {
-
-	/*====================================
-	=            Platform Module            =
-	====================================*/
-	.plf-module {
-		.title{
-			display: none;
-		}
-		.icon {
-			&.icon-tourist{
-				top:4.8%;
-				left: 45%;
-			}
-			&.icon-inter-departures{
-				top:15.8%;
-				left: 26%;
-			}
-			&.icon-soup{
-				top:19%;
-				right: 19%;
-			}
-			&.icon-smartphone{
-				top:39%;
-				left: 24%;
-			}
-			&.icon-planes-circling{
-				top:38%;
-				right: 23%;
-			}
-			&.icon-email-in-phone{
-				top:73%;
-				left:24%;
-			}
-			&.icon-booking{
-				top:65%;
-				right: 22.5%;
-			}
-			&.icon-technical-support{
-				top:88.7%;
-				left: 21%;
-			}
-			&.icon-api-page{
-				top:87%;
-				right: 20%;
-			}
-			&.icon-handshake{
-				top:100%;
-				right: 47%;
-			}
-		}
-		.module-name {
-			&.holiday-packaging{
-				top:-5%;
-				left: 39%;
-			}
-			&.booking-engine{
-				top:25%;
-				left: 18%;
-			}
-			&.ancillary-selling{
-				top:15%;
-				right: 26%;
-			}
-			&.booking-apps{
-				top:38%;
-				left: 2%;
-			}
-			&.flyer-redemption{
-				top:36%;
-				right: -4%;
-			}
-			&.booking-communications{
-				top:72%;
-				left: -4%;
-			}
-			&.travel-booking{
-				top:65%;
-				right: 1%;
-			}
-			&.api-booking{
-				top:97%;
-				left: 5%;
-			}
-			&.search-api{
-				top:93%;
-				right: 17%;
-			}
-			&.booking-packaging{
-				top:106%;
-				right: 38%;
-			}
-		}
-	}
-	.plf-module .plf-view {
-		position: static!important;
-		&:extend(.btn-lg all);
-		margin-top: 30px;
-		min-width: 250px;
-		font-size: 18px;
-	}
-	#platform-module {
-		padding-bottom: 0;
-	}
-
-
 	// Hook Mixin Render: Only for Medium devices and lower (<1199px)
 	.hook-screen-md-max;
 }
 @media (min-height: 800px) and (max-height: 1024px){
-	.our-project-section {
-		.section-body {
-
-		}
-	}
+	
 }
 
 // Only for Small devices and lower (<991px)
 @media (max-width: @screen-sm-max) {
-	#module-1 {
-		padding-top: 0;
-	}
-	.canvas-background {
-		display: none;
-	}
-	.list-plf-module .runway,
-	.list-plf-module .module-item .circle-icon,
-	.list-plf-module:before {
-		display: none;
-	}
-	.navbar-default .navbar-toggle {
-		margin-top: 14px;
-		margin-bottom: 0;
-	}
-	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-		background-color: @secondary-color;
-		color: #fff;
-		border-color: @secondary-color;
-	}
-	.navbar-default .navbar-toggle .icon-bar {
-		background-color: #fff;
-	}
-	.navbar-toggle {
-		display: block;
-	}
-	.site-header .navbar > .container-lg {
-		width: 100%;
-	}
-	.site-header .navbar-default {
-		background: #071c2f url('../images/bgnavbarmask.png') no-repeat 0 0;
-		opacity: 0.95;
-		filter: alpha(opacity=95);
-		min-height: 60px;
-		top: 0;
-	}
-	#header .navbar-brand {
-		height: 60px;
-		.default-logo {
-			display: none;
-		}
-		.secondary-logo {
-			display: block!important;
-		}
-	}
-	#header .navbar-fixed-top .navbar-collapse {
-		max-height: none;
-	}
-	.navbar-default .navbar-brand.navbar-logo {
-	    padding-top: 12px;
-	    padding-bottom: 12px;
-	}
-	#header .navbar-collapse {
-		background: #071c2f url('../images/bgnavbarmask.png') repeat left top;
-		position: fixed;
-		z-index: 1000;
-		left: 0;
-		top: 0;
-		width:  250px;
-		height: 100%;
-		margin: 0;
-		bottom: 0;
-		.transition(100ms);
-		border-top: none;
-		box-shadow: none;
-		overflow-y: auto;
-	}
-	.swiper-projects .swiper-button-next, .swiper-projects .swiper-button-prev {
-		display: none;
-	}
-	#header .navbar-fixed-top .navbar-collapse {
-		top: 61px;
-	}
-	#header .navbar-collapse .navbar-nav{
-		margin: 0;
-	}
-	#header .navbar-collapse .navbar-nav > li {}
-	#header .navbar-collapse .navbar-nav > li > a {
-		padding: 20px;
-	}
-	/*====================================
-	=            Platform Module            =
-	====================================*/
-	.newsletter-section{
-		.form-control {
-			margin-bottom: 20px;
-		}
-	}
-	.plf-module {
-		padding-top:0;
-		position:static !important;
-		.title {
-			display:none;
-		}
-		.icon {
-			display:block;
-			float:left;
-			margin-right:25px;
-			position:static !important;
-			text-align:left !important;
-			vertical-align:middle;
-			width:50px;
-		}
-		.module-item {
-			display:block;
-			float:left;
-			margin:10px 0 25px 0;
-			width:50%;
-		}
-		.module-name {
-			margin:7px 0 !important;
-			width:auto !important;
-			position:static !important;
-			display:block;
-			vertical-align:middle;
-			text-align:left !important;
-		}
-	}
-	.plf-module img{
-		display: none;
-	}
-	/*====================================
-	=            contact Page            =
-	====================================*/
-
-	.contact-detail .item-contact, .map-tabs{
-			margin:15px !important;
-		}
-
+	
 	// Hook Mixin Render
 		.hook-screen-sm-max;
 	}
 // Only for Small devices and lower (<767px)
 @media (max-width: @screen-xs-max) {
-	body {
-		background-size: cover;
-	}
-	.contact-detail .form-contact {
-		padding: 0 15px;
-	}
-	.contact-detail .form-contact span.form-title {
-		font-size: 20px;
-	}
-	.banner-video .play-video {
-		margin: 10px 0;
-	}
-	.banner-video .wrap-video {
-	    background: #000 url('../images/bg-video.jpg') no-repeat center top;
-	}
-	#location-tab {
-		background-color: #fff;
-	}
-
-	ul.list-services-detail {
-		padding-left: 0;
-	}
-	ul.list-services-detail > li {
-		padding-left: 120px;
-	}
-	.banner-subpage.has-bg {
-		background-size: cover;
-		background-position: center 61px;
-	}
-	.banner-subpage.has-bg > .container {
-		padding-bottom: 65px;
-		min-height: 339px;
-	}
-	.contact-page .banner-subpage > .container {
-		padding-bottom: 150px;
-	}
-	.detail-job-page .job-heading {
-		left: 15px;
-		right: 15px;
-	}
-	.section-box .section-title {
-		font-size: 22px;
-	}
-	.talk-us .feedback {
-		font-size: 16px;
-	}
-	.counter-number > li:nth-child(2), .counter-number > li:nth-child(3) {
-		margin: 0;
-	}
-	/*====================================
-	=            Contact Page            =
-	====================================*/
-	.contact-detail .item-contact, .map-tabs{
-			margin:0 !important;
+	.carousel-caption{
+		top:20%;
+		color:@primary-color;
+		h2{
+			font-size: 18px;
+			text-transform: uppercase;
+			letter-spacing:4px;
 		}
-	/*====================================
-	=            SERVICE PAGE            =
-	====================================*/
-	ul.list-services-detail{
-		>li{
-			width: 100% !important;
+		h4{
+			color:#fff;
+			font-size: 14px;
+			letter-spacing:2px;
+			margin-bottom: 35px;
 		}
+		
 	}
-	/*=====  End of SERVICE PAGE  ======*/
-	.wrap-video .intro {
-		width: 90%;
-		top:45% !important;
+	.header-logo img{
+		max-width: 250px !important;
 	}
-	.counter-number > li{
-	}
-	.wrap-video .heading {
-		font-size: 22px;
-	}
-	.counter-number .count {
-		font-size: 30px;
-		.square(80px);
-		line-height: 80px;
-		border:0 !important;
-	}
-	.our-project-section {
-		height: 700px!important;
-	}
-	.counter-plf, .count-bk{
-		margin-top: 15px;
-	}
-	.swiper-client {
-		.swiper-slide a {
-			display: block;
-			text-align: center;
+	.carousel-inner{
+		height: 300px !important;
+		img{
+			height: 100% !important;
 		}
-	}
-	.swiper-client .swiper-pagination {
-		margin-top: 30px;
-		white-space: nowrap;
-	}
-	.section-box > .section-inner {
-	    padding: 30px 0 40px;
-	}
-	#platform-module {
-		padding-bottom: 0;
-	}
-	.swiper-jobs {
-		.pull-left, .pull-right {
-			float: none!important;
-		}
-	}
-	.itemjobs .pull-right {
-		text-align: left;
-		margin-top: 10px;
-	}
-	.site-footer {
-		.site-info {
-			text-align: center;
-		}
-	}
-	.gq-footer-info li > .fa {
-		position: static;
-	}
-	.gq-footer-info li {
-		margin-left: 0;
-	}
-	.connected-gq, .lists-connected-gq {
-		float: none;
-	}
-	.lists-connected-gq > li {
-		float: none;
-		display: inline-block;
-		text-align: center;
-	}
-	.back-top {
-		float: none;
-	}
-	.counter-number {
-		white-space: normal;
-	}
-	.row.counter-number {
-		> li {
-			margin: 0;
-			width: 50%;
-		}
-	}
-	.wrap-video > video {
-		display: none;
-	}
-	.banner-video .play-video {
-		margin-bottom: 20px;
 	}
 	// Hook Mixin Render: Only for Small devices and lower (<767px)
 		.hook-screen-xs-max;
 	}
 // Only for Small devices and lower (<500px)
-@media(max-width:500px){
-	.plf-module {
-		.module-item {
-			width:100% !important;
-			text-align: center;
-			margin:15px auto 15px 15px
-		}
-
-	}
-}
-
-@media (max-width: 480px) {
-	.modal.video-modal .modal-body {
-		padding: 5px;
-	}
-	.modal.video-modal button.close {
-		width: 25px;
-		height: 25px;
-		font-size: 20px;
-		padding: 0px;
-		margin-left: 6px;
-	}
-	.counter-number > li {
-		margin-bottom: 10px;
-	}
-	.counter-number .count {
-		height: 30px;
-		border: none;
-		line-height: 26px;
-		margin-bottom: 0;
-	}
-	.counter-number .text {
-		font-size: 16px;
-	}
-	.wrap-video .heading {
-		font-size: 24px;
-		margin-bottom: 0;
-	}
-	.wrap-video .btn-bordered {
-		margin: 20px 0 30px
-	}
-	.wrap-video .btn-xlg {
-		font-size: 20px;
-		height: 43px;
-	}
-	.counter-number > li {
-		width: 50%;
-	}
-}
-
-@media(max-width: 380px) {
-	.wrap-video .heading {
-		font-size: 20px;
-	}
-}
