@@ -1,0 +1,43 @@
+{
+  "name": "supper-bootstrap",
+  "version": "1.0.0",
+  "description": "A branch version be develop base on Bootstrap v.3.3.6 and Font-Awesome v.4.5.0",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.0.5",
+    "gulp-util": "^3.0.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-filter": "^4.0.0",
+    "gulp-html-tag-include": "^1.0.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-less": "^3.1.0",
+    "gulp-less-sourcemap": "^1.4.3",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp.spritesmith": "^6.2.1",
+    "merge-stream": "^1.0.0",
+    "vinyl-buffer": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Hello World\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nguyentruonggiang/supper-bootstrap.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "supper-bootstrap"
+  ],
+  "author": "Giang Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyentruonggiang/supper-bootstrap/issues"
+  },
+  "homepage": "https://github.com/nguyentruonggiang/supper-bootstrap"
+}
