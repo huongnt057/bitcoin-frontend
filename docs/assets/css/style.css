@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------------------------*/
+/*.liquid-layout {
+	background-color: #f9f9f9;
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	&:extend(.clearfix all);
+
+	&.fixedFluidOverflow {
+		#liquid-layout > .fixedFluidOverflow(200px, 20px);
+	}
+	&.fluidFixedOverflow {
+		#liquid-layout > .fluidFixedOverflow(200px, 20px);
+	}
+	&.fixedFluidFixedOverflow {
+		#liquid-layout > .fixedFluidFixedOverflow(200px, 20px, 200px, 20px);
+	}
+
+	&.fixedFluidDynamic {
+		#liquid-layout > .fixedFluidSwap(200px, 20px);
+	}
+	&.fluidFixedDynamic {
+		#liquid-layout > .fluidFixedSwap(200px, 20px);
+	}
+	&.fixedFluidFixedDynamic {
+		#liquid-layout > .fixedFluidFixedSwap(200px, 20px, 200px, 20px);
+	}
+
+	&.fixedFluidPush {
+		#liquid-layout > .fixedFluidPush (200px, 20px);
+	}
+	&.fluidFixedPush {
+		#liquid-layout > .fluidFixedPush (200px, 20px);
+	}
+	&.fixedFluidFixedPush {
+		#liquid-layout > .fixedFluidFixedPush(200px, 20px, 200px, 20px);
+	}
+}*/
+/*--------------------------------------------------------------------------------*/
+/*# sourceMappingURL=style.css.map */
